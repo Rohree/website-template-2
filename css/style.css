@@ -225,7 +225,7 @@ button {
 .header_section{
     width: 100%;
     float: left;
-    background-image: url(../images/header-bg.png);
+    background-image: url(../images/header-bg.svg);
     height: auto;
     background-size: 100%;
 }
@@ -246,7 +246,7 @@ button {
 }
 .call_text {
     width: 100%;
-    float: left;
+    float: right;
     font-size: 18px;
     color: #ffb607;
     padding-top: 10px;
@@ -294,7 +294,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg1.svg);
     height: auto;
     padding-bottom: 50px;
     background-size: 100%;
@@ -1021,6 +1021,44 @@ textarea#comment::placeholder {
 
 
 
-
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .banner .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .banner .logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .banner .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
 
 
